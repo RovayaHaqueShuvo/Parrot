@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "423999690233",
+    "project_id": "parrot-6eaa8",
+    "storage_bucket": "parrot-6eaa8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423999690233:android:7cc8b844650f17742e5928",
+        "android_client_info": {
+          "package_name": "nsda.com.parrot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1CluTZYcxWZhnwT57d_Yx3LYvQJkEB80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
