@@ -4,7 +4,9 @@ pluginManagement {
         mavenCentral()
         gradlePluginPortal()
         maven {
-            url = uri("https://jitpack.io") } }
+            url = uri("https://jitpack.io")
+        }
+    }
 }
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
@@ -12,7 +14,10 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         maven {
-            url = uri("https://jitpack.io") } } }
+            url = uri("https://jitpack.io")
+        }
+    }
+}
 
 rootProject.name = "Parrot"
 include(":app")

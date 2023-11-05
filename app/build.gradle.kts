@@ -13,7 +13,7 @@ android {
 
     defaultConfig {
         applicationId = "nsda.com.parrot"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -41,7 +41,7 @@ android {
 
 dependencies {
 
-    implementation("androidx.core:core-ktx:1.9.0")
+    implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.10.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
@@ -55,5 +55,10 @@ dependencies {
     implementation ("com.github.pgreze:android-reactions:1.5.1")
     implementation ("com.github.3llomi:CircularStatusView:V1.0.3")
     implementation ("com.github.OMARIHAMZA:StoryView:1.0.2-alpha")
+
+    //countryCodePicker
+    implementation ("com.hbb20:ccp:2.6.0")
+
+
 
 }
