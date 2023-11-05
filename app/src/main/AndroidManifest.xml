@@ -21,7 +21,7 @@
             android:name=".Parrot_Interface"
             android:exported="false" />
         <activity
-            android:name=".OTPAcitvity"
+            android:name=".OTPActivity"
             android:exported="false" />
         <activity
             android:name=".VerificationNumber"

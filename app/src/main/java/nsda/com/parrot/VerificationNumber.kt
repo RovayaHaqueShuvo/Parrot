@@ -3,6 +3,7 @@ package nsda.com.parrot
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 import nsda.com.parrot.databinding.ActivityVerificationNumberBinding
 
@@ -23,9 +24,14 @@ class VerificationNumber : AppCompatActivity() {
         binding.enteredNuberEDTXT.requestFocus()
 
         binding.GetOTpbtn.setOnClickListener {
-            var intent = Intent(this@VerificationNumber, OTPAcitvity::class.java)
+
+            if( binding.enteredNuberEDTXT.text.toString().isEmpty()){
+                Toast.makeText(this@VerificationNumber,"Enter Your Number", Toast.LENGTH_SHORT).show()
+            }
+            else {
+            var intent = Intent(this@VerificationNumber, OTPActivity::class.java)
             intent.putExtra("number_passing", binding.enteredNuberEDTXT.text.toString())
             startActivity(intent)
-        }
+        }}
     }
 }
