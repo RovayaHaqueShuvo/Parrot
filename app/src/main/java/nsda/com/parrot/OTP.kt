@@ -78,7 +78,7 @@ class OTPActivity : AppCompatActivity() {
             auth!!.signInWithCredential(credential)
                 .addOnCompleteListener { task ->
                     if (task.isSuccessful) {
-                        startActivity(Intent(this@OTPActivity, Parrot_Interface::class.java))
+                        startActivity(Intent(this@OTPActivity, EnterImageAndName::class.java))
                         finish()
                     } else {
                         Toast.makeText(this@OTPActivity, "Authentication failed", Toast.LENGTH_SHORT).show()

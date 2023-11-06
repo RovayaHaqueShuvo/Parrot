@@ -56,7 +56,7 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="120dp"
-        android:backgroundTint="#673AB7"
+        android:backgroundTint="#737374"
         android:text="Get OTP"
         app:layout_constraintEnd_toEndOf="@+id/enteredNuberEDTXT"
         app:layout_constraintHorizontal_bias="0.514"

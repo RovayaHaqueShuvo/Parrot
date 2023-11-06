@@ -59,6 +59,9 @@ dependencies {
     //countryCodePicker
     implementation ("com.hbb20:ccp:2.6.0")
 
+    //Circle Image
+    implementation ("de.hdodenhof:circleimageview:3.1.0")
+
 
 
 }
